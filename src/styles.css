@@ -1,0 +1,40 @@
+/* Custom font */
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+/* Table customization */
+.table-custom {
+  border: 1px solid #ddd;
+}
+
+/* Form styling */
+.form-custom {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+/* Change submission areas to light pink */
+.form-custom input,
+.form-custom textarea,
+.form-custom select {
+  background-color: #ffe4e1; /* Light pink color */
+}
+.form-custom input[type="submit"],
+.form-custom input[type="button"],
+.form-custom button {
+  color: navy;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .table-responsive-custom {
+      overflow-x: auto;
+  }
+}
+
+/* Utility classes */
+.mt-2 {
+  margin-top: 0.5rem;
+}
